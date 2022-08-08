@@ -258,3 +258,6 @@ And in this way, Max was able to apply the changes that the manager wanted witho
 ## Class Adapter Pattern and Multi-inheritance Disease
 
 Consider the class diagram of this pattern in the following.
+
+| <img src="5.png" alt="Pair Game" /> | 
+|:--:|
