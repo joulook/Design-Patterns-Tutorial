@@ -31,3 +31,14 @@ The Adapter pattern allows an object or a class to expose what it needs. It conv
 
 | <img src="3.png" alt="Pair Game" /> | 
 |:--:|
+
+Consider the above class diagram. An adapter uses composition to store an object that needs to be adapted to a new state and when a method has been called from an adapter, those calls will be transformed into things that adapted objects could understand, thus it passes all the callings to adapted objects. The adapter caller never needs to know whether the object is working on is the right one or not.
+
+Now, before we continue the discussion, let's solve Max's problem.
+
+## Max Knows about Patterns, Piece of Cake.
+
+If we want to schematically show what Max has to do to solve the problem, something like the following will happen.
+
+| <img src="4.png" alt="Pair Game" /> | 
+|:--:|
