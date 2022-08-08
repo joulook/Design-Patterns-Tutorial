@@ -48,3 +48,12 @@ The next item is __Scope__, which specifies whether a Pattern is used in Class f
 
 | <img src="1.jpg" alt="Pair Game" /> | 
 |:--:|
+
+## Purpose: Creational
+Creational Patterns are used when the Instantiation Process is particularly important for us, and in Design, we use these types of Design Patterns depending on different conditions and situations. This type of pattern gives you a lot of flexibility in matters such as: what was created, who created it, how it was created, and when it was created.
+
+## Purpose: Structural
+Structural Patterns focus on how classes and objects are composed to build larger structures. Those Structural Patterns that are in Class Scope use Inheritance to compose Interfaces. These types of Design Patterns are particularly useful for developing independent Class Libraries that can work together.
+
+## Purpose: Behavioral
+Behavioral patterns are involved with algorithms and responsibilities between objects. This type of pattern not only describes the class and object but also defines the communication between them. This type of pattern is suitable when our control flow is complex and following it is a difficult task in Run-time. These types of patterns take our focus away from control flow and allow us to focus only on how objects are interconnected.
