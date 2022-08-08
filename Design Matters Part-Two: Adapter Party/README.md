@@ -27,7 +27,7 @@ You can have the same view on the Adapter as in the real world adapter In the re
 
 The Adapter pattern allows an object or a class to expose what it needs. It converts the interface of a class to its desired interface; in fact, it allows us to fix the interfaces between objects and classes without any need to change them directly.
 
-## ‫‪Object Adapter Pattern and Believe Me... Its so easy to lean!
+## ‫‪Object Adapter Pattern and Believe Me... Its so easy to learn!
 
 | <img src="3.png" alt="Pair Game" /> | 
 |:--:|
