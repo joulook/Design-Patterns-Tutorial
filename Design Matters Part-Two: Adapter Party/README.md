@@ -24,3 +24,10 @@ Well, as you can see, we have encountered a problem that is difficult to find a 
 An Adapter class does this by privately inheriting from an Adaptee class and causes multi-inheritance. We will cover this topic and the Object Adapter Pattern later.
 
 You can have the same view on the Adapter as in the real world adapter In the real world, an adapter is used to connect two different electrical ports as connecting them can not be possible directly. The adapter relays between these two parts and gets the flow from one of them and transforms it to be usable for the other part. This work can not be done without an adapter because of the existence of Incompatible Interfaces.  
+
+The Adapter pattern allows an object or a class to expose what it needs. It converts the interface of a class to its desired interface; in fact, it allows us to fix the interfaces between objects and classes without any need to change them directly.
+
+## ‫‪Object Adapter Pattern and Believe Me... Its so easy to lean!
+
+| <img src="3.png" alt="Pair Game" /> | 
+|:--:|
