@@ -26,4 +26,7 @@ There are a series of recurring problems in our world that we encounter many tim
 ## Characteristics of Design Pattern
 1. It should be such that we no longer need to think about the problem and our only job is pattern matching. This property is called __Smart__.
 2.  It should not be dependent on a specific type of system or programming language, it should be specific to a general problem domain, which is called __Generic__.
-3.  
+3. It must be proven that the proposed solution will definitely solve our problem and does not need to be proved again, which is called __well-proven__.
+4. It should be __simple__.
+5. It must be __Reusable__, which we explained earlier what it means.
+6. All Design Patterns solutions are based on the __Object-Oriented paradigm__.
