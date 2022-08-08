@@ -18,7 +18,7 @@ If we want to give some examples from the real world in which we must have exact
 
 This design pattern ensures that a class has only one instance and provides a global point to access it.
 
-| <img src="1.png" alt="Pair Game" /> | 
+| <img src="01.png" alt="Pair Game" /> | 
 |:--:|
 
 In the above figure, you can see the structure of this design pattern in the form of a class diagram.
