@@ -118,3 +118,7 @@ There are other approaches for implementing this design pattern, and since our g
 Suppose we have a DBMS named ADABAS and we use it to record the weather conditions. We want this DBMS to have only one Admin. We have applied the necessary changes using the Singleton Pattern and have provided you with the class diagram and its source code in Java and C# code.
 | <img src="02.png" alt="Pair Game" /> | 
 |:--:|
+
+## Bibliography
+* Design Patterns Elements of Reusable Object-Oriented Software -Gmma and Helm and Johnson and Vlissides -Addison Wesley
+* Java Design Patterns -Rohit Joshi -Exelixis Media
