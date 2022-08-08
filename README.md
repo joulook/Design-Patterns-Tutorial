@@ -2,6 +2,6 @@
 
 ## Desing Matters Part-one: Design Patterns Rises
 
-| <img src="out.jpg" alt="Pair Game" width="25" height="100"/> | 
+| <img src="out.jpg" alt="Pair Game" width="300" height="600"/> | 
 |:--:|
-*The Cover of Article is Adapted From “Design Patterns Explained Simply By Alexander Shvets” Cover Page*
+|*The Cover of Article is Adapted From “Design Patterns Explained Simply By Alexander Shvets” Cover Page*|
