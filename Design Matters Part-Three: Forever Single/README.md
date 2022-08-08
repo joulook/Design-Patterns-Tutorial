@@ -83,3 +83,38 @@ public class Admin{
 }
 ```
 There are other solutions, such as __double-checked locking__, which can be a more optimal solution, and you can refer to the books introduced in the Bibliography section to learn more about this issue.
+
+## Eager Initialization
+
+In this approach, it is enough to act like the above and instead of instantiating the object in a mehtod, do this in the declaration part and proceed similar to the following code.
+
+```
+public class Admin {
+  private static Admin instance = new Admin();
+
+  private Admin(){
+  }
+
+  public static Admin getInstance(){
+    return this.instance;
+  }
+}
+```
+
+## The Other Ways
+
+There are other approaches for implementing this design pattern, and since our goal is to encourage you to study reference books, we refrain from describing those methods and leave it up to the reader to learn the other. You can learn them by referring to the sources introduced in the bibliography section.
+
+###### List of other approaches
+
+* Static block initialization
+* Bill Pugh Singleton Implementation
+* Using Reflection to destroy Singleton Pattern
+* Enum Singleton
+* Serialization and Singleton
+
+## More Examples
+
+Suppose we have a DBMS named ADABAS and we use it to record the weather conditions. We want this DBMS to have only one Admin. We have applied the necessary changes using the Singleton Pattern and have provided you with the class diagram and its source code in Java and C# code.
+| <img src="02.png" alt="Pair Game" /> | 
+|:--:|
