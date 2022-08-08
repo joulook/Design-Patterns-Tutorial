@@ -18,7 +18,7 @@ Max did not want to change all 100 classes that were referenced to an Xpay objec
   <img src="02.jpg" width="422" /> 
 </p>
 
-## ‫‪Season‬‬‫‪Party‬‬ ‫‪Adapter‬‬
+## ‫‪Adapter Party Season
 Well, as you can see, we have encountered a problem that is difficult to find a solution to it, not if we are not familiar with Pattern Designs. In this session, we want to introduce you to one of the most useful design patterns which are categorized by Structural purpose, The Adapter Pattern. In some books, it has been introduced as Wrapper Pattern. In General, an Adapter matches an interface(Adaptee) to another interface(Target); consequently, it results in an integrated abstraction from various interfaces.
 
 An Adapter class does this by privately inheriting from an Adaptee class and causes multi-inheritance. We will cover this topic and the Object Adapter Pattern later.
@@ -261,3 +261,5 @@ Consider the class diagram of this pattern in the following.
 
 | <img src="5.png" alt="Pair Game" /> | 
 |:--:|
+
+An adapter class relies on multiple inheritance to adapt one interface to another. To implement an Adapter Class, we act in such a way that an Adapter inherits publicly from Target and privately from Adaptee, and as a result, Adapter becomes a subtype of Target but not of Adaptee. The argument that arises is that we cannot use this Design Pattern in languages like Java, which have been prevented from multiple inheritances for valid reasons. Some sources indicate that we can implement this technique using Interface. But some sources such as the Gang of Four books admit that according to the exact definition, the Adapter must be inherited from several base classes and not from interfaces.
