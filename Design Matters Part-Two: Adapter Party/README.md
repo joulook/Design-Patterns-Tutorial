@@ -14,6 +14,6 @@ The manager told him that they are planning to change the vendor of the payment 
 Max did not want to change all 100 classes that were referenced to an Xpay object. This would also increase the risk on the project that was running and the users were using it. Also, he cannot change the codes of the 3rd party payment portal. In other words, his problem can be described in the following two ways.
 
 <p float="left">
-  <img src="01.jpg" width="100" />
-  <img src="02.jpg" width="100" /> 
+  <img src="01.jpg" width="400" />
+  <img src="02.jpg" width="400" /> 
 </p>
