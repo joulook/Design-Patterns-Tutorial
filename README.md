@@ -65,3 +65,7 @@ Next sessions, we will start introducing Design Patterns and implement each one 
 * Design Patterns Elements of Reusable Object-Oriented Software -Gmma and Helm and Johnson and Vlissides -Addison Wesley
 * UML 2 Toolkit -Eriksson and Penker and Lyons and Fado –Wiley
 * Java Design Patterns -Rohit Joshi -Exelixis Media
+
+## Next Session
+
+[Click here to move to the next session](https://github.com/joulook/Design-Patterns-Tutorial/tree/main/Design%20Matters%20Part-Two:%20Adapter%20Party "Named link title")
