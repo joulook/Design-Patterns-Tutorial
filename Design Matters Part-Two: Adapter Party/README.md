@@ -280,3 +280,8 @@ A software company plans to change its back-end, which it has provided from a ve
 ## Bibliography
 * Design Patterns Elements of Reusable Object-Oriented Software -Gmma and Helm and Johnson and Vlissides -Addison Wesley
 * Java Design Patterns -Rohit Joshi -Exelixis Media
+
+## Next Session
+
+[Named Link](http://www.google.fr/ "Named link title")
+
