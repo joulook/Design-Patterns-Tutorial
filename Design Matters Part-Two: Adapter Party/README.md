@@ -17,3 +17,10 @@ Max did not want to change all 100 classes that were referenced to an Xpay objec
   <img src="01.jpg" width="400" />
   <img src="02.jpg" width="422" /> 
 </p>
+
+## ‫‪Season‬‬‫‪Party‬‬ ‫‪Adapter‬‬
+Well, as you can see, we have encountered a problem that is difficult to find a solution to it, not if we are not familiar with Pattern Designs. In this session, we want to introduce you to one of the most useful design patterns which are categorized by Structural purpose, The Adapter Pattern. In some books, it has been introduced as Wrapper Pattern. In General, an Adapter matches an interface(Adaptee) to another interface(Target); consequently, it results in an integrated abstraction from various interfaces.
+
+An Adapter class does this by privately inheriting from an Adaptee class and causes multi-inheritance. We will cover this topic and the Object Adapter Pattern later.
+
+You can have the same view on the Adapter as in the real world adapter In the real world, an adapter is used to connect two different electrical ports as connecting them can not be possible directly. The adapter relays between these two parts and gets the flow from one of them and transforms it to be usable for the other part. This work can not be done without an adapter because of the existence of Incompatible Interfaces.  
