@@ -42,3 +42,5 @@ We recommend that you read the text again from the beginning and then continue.
 4. The fourth section is Consequences & Trade-off, which represents the result of a pattern. Basically, its role is to evaluate a design and determine the costs and benefits of using a design pattern.
 
 ## Design Patterns Classification 
+Two items are used to classify design patterns. The first is __Purpose__, which reflects that a Design Pattern is placed in different categories in terms of what it does, all of which fall into three categories: ــCreational, Structural, and Behavioral, we will describe the characteristics of each category.
+The next item is __Scope__, which specifies whether a Pattern is used in Class format or Object format. Those that are placed in Class Scope work with the relationship between classes and subclasses, like the Inheritance concept, they are also static and fixed at compile-time, but those that are in Object Scope work with the relationship between objects. They can change in Run-time and are dynamic
