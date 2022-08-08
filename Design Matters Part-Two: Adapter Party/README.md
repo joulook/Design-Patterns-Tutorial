@@ -283,5 +283,5 @@ A software company plans to change its back-end, which it has provided from a ve
 
 ## Next Session
 
-[Named Link](http://www.google.fr/ "Named link title")
+[Click here to move to the next session](https://github.com/joulook/Design-Patterns-Tutorial/tree/main/Design%20Matters%20Part-Three:%20Forever%20Single "Named link title")
 
