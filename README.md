@@ -18,3 +18,12 @@ Now it may be a duplicate problem domain, but due to the different conditions an
 Now, a question arises, how to deal with a new problem domain, taking into account the mentioned criteria, to make a design so that when we face the same problem again in the next work, we can get the desired solution with minimal changes in our previous solution? 
 
 In response, it should be said that this is not an easy task at all and requires a lot of successful experience. It means that it becomes possible with the passage of time. You should record the experiences and results obtained after each design and use previous experiences repeatedly and improve your design skill, which is called Sprint-Retrospective, and finally become an expert object-oriented designer. You definitely don't have that much time to spend on gaining experience so that you can do a design with the mentioned criteria. This is where the issue of Design Pattern comes into play
+
+
+## What is Design Pattern ?
+There are a series of recurring problems in our world that we encounter many times. Experienced designers have found a solution for those problems once and forever. Each pattern represents a problem with its own solution, in other words, a design pattern must be the best practice for the relevant problem (that is, there is no better solution for that problem domain) and the duty of a designer is to do pattern matching, that is, to figure out which design pattern corresponds to the problem ahead.
+
+## Characteristics of Design Pattern
+1. It should be such that we no longer need to think about the problem and our only job is pattern matching. This property is called __Smart__.
+2.  It should not be dependent on a specific type of system or programming language, it should be specific to a general problem domain, which is called __Generic__.
+3.  
