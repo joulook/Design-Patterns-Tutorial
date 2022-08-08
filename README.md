@@ -57,3 +57,11 @@ Structural Patterns focus on how classes and objects are composed to build large
 
 ## Purpose: Behavioral
 Behavioral patterns are involved with algorithms and responsibilities between objects. This type of pattern not only describes the class and object but also defines the communication between them. This type of pattern is suitable when our control flow is complex and following it is a difficult task in Run-time. These types of patterns take our focus away from control flow and allow us to focus only on how objects are interconnected.
+
+## Our Plan for Next Session
+Next sessions, we will start introducing Design Patterns and implement each one as an example in Java, C#, and C++ languages.
+
+## Bibliography
+* Design Patterns Elements of Reusable Object-Oriented Software -Gmma and Helm and Johnson and Vlissides -Addison Wesley
+* UML 2 Toolkit -Eriksson and Penker and Lyons and Fado –Wiley
+* Java Design Patterns -Rohit Joshi -Exelixis Media
