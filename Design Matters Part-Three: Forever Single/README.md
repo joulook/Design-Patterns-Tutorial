@@ -30,3 +30,55 @@ Now, how can we use this Design Pattern to solve a problem whose Problem Domain 
 ## Lazy Initialization
 
 Suppose we want to have only one admin for a particular network. To have only one object from the admin class, we first place a Private Variable inside the admin class, which makes an object accessible using a method. To optimize the work, we put the instantiation part of the object in the method so that the object can be instantiated when that method is called.
+
+```
+public class Admin {
+  private static Admin instance;
+  public static Admin getInstance(){
+    if(this.instance == null){
+      this.instance = new Admin();
+    }
+    return this.instance;
+  }
+}
+```
+Now we have to prevent the creation of an object by the class as a whole and for this, we have to make the constructor of this class private.
+
+```
+public class Admin {
+  private static Admin instance;
+  
+  private Admin(){
+  }
+  
+  public static Admin getInstance(){
+    if(this.instance == null){
+      this.instance = new Admin();
+    }
+    return this.instance;
+  }
+}
+```
+Well, so far everything is going well and it seems that if we use this class, there will be no problem for us and we will always have an object from the admin class during the lifetime of our program, but it's not true. Our suggestion to the readers is to go back and see the above code from the point of view of concurrency and think about how the code cannot implement the concept of singleton and then continue reading this article.
+
+## Now, What is the Issue?
+
+The problem arises when we want to write our program in a multi-threaded way. Suppose we have two threads named t1 and t2. First, t1 calls the getInstance method. After checking the if condition and getting a true answer from the condition, it will be interrupted and then t2 will call the same method and do its job completely. When t2 calls that method and then completes its execution, our object is created. Now the interrupt is removed from t1 because it checked the condition before, it doesn't check it anymore and it creates the second object from the admin class and destroys the singleton philosophy.
+
+The Java language has a solution to solve this problem by using the keyword synchronized for the method we are considering. When a thread calls a synchronized method, no other thread can call that method until the thread that called the method is done, and our problem is solved in this part.
+
+```
+public class Admin{
+  private static Admin instance;
+  
+  private Admin(){
+  }
+  
+  public static synchronized Admin getInstance(){
+    if(this.instance == null){
+      this.instance = new Admin();
+    }
+    return this.instance;
+  }
+}
+```
