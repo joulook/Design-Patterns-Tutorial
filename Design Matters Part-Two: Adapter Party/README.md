@@ -15,5 +15,5 @@ Max did not want to change all 100 classes that were referenced to an Xpay objec
 
 <p float="left">
   <img src="01.jpg" width="400" />
-  <img src="02.jpg" width="420" /> 
+  <img src="02.jpg" width="422" /> 
 </p>
