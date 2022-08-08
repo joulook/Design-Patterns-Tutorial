@@ -30,3 +30,15 @@ There are a series of recurring problems in our world that we encounter many tim
 4. It should be __simple__.
 5. It must be __Reusable__, which we explained earlier what it means.
 6. All Design Patterns solutions are based on the __Object-Oriented paradigm__.
+
+## Attention Please!
+We recommend that you read the text again from the beginning and then continue.
+
+## Design Patterns Structure
+###### Each Design Pattern is made up of four basic parts that we will explain
+1. Each Design Pattern has a __Name__ consisting of one or two words, from which one can understand the definition of Problem, Solution, and result (that is, a name related to what it does, not the name of its creator).
+2. The second part is the __Problem__, which should explain the problem and its context, for example, how we can represent an algorithm in the form of an object. Sometimes the problem includes a list of conditions that must be checked whether they exist or not, and then according to the result, we decide whether this design pattern is useful or not.
+3. The third part is ــSolutionــ, which introduces elements whose task is to make up the relationships, responsibilities, and collaborations of a design. Solutions do not have a specific implementation because they are like a template that is used in different situations and mostly include UML diagrams.
+4. The fourth section is Consequences & Trade-off, which represents the result of a pattern. Basically, its role is to evaluate a design and determine the costs and benefits of using a design pattern.
+
+## Design Patterns Classification 
