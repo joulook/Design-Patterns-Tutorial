@@ -59,13 +59,13 @@ public class Admin {
   }
 }
 ```
-Well, so far everything is going well and it seems that if we use this class, there will be no problem for us and we will always have an object from the admin class during the lifetime of our program, but it's not true. Our suggestion to the readers is to go back and see the above code from the point of view of concurrency and think about how the code cannot implement the concept of singleton and then continue reading this article.
+Well, so far everything is going well and it seems that if we use this class, there will be no problem for us and we will always have an object from the admin class during the lifetime of our program, but it's not true. Our suggestion to the readers is to go back and see the above code from the point of view of __concurrency__ and think about how the code cannot implement the concept of singleton and then continue reading this article.
 
 ## Now, What is the Issue?
 
 The problem arises when we want to write our program in a multi-threaded way. Suppose we have two threads named t1 and t2. First, t1 calls the getInstance method. After checking the if condition and getting a true answer from the condition, it will be interrupted and then t2 will call the same method and do its job completely. When t2 calls that method and then completes its execution, our object is created. Now the interrupt is removed from t1 because it checked the condition before, it doesn't check it anymore and it creates the second object from the admin class and destroys the singleton philosophy.
 
-The Java language has a solution to solve this problem by using the keyword synchronized for the method we are considering. When a thread calls a synchronized method, no other thread can call that method until the thread that called the method is done, and our problem is solved in this part.
+The Java language has a solution to solve this problem by using the keyword __synchronized__ for the method we are considering. When a thread calls a synchronized method, no other thread can call that method until the thread that called the method is done, and our problem is solved in this part.
 
 ```
 public class Admin{
@@ -82,3 +82,4 @@ public class Admin{
   }
 }
 ```
+There are other solutions, such as __double-checked locking__, which can be a more optimal solution, and you can refer to the books introduced in the Bibliography section to learn more about this issue.
