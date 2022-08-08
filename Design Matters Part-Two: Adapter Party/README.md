@@ -268,3 +268,15 @@ An adapter class relies on multiple inheritance to adapt one interface to anothe
 
 1. When you want to use an existing class and its interface does not match what you want to do.
 2. When you want to create a reusable class that cooperates with invisible and unrelated classes, these classes do not necessarily have a compatible interface.
+
+## More Exercises
+
+A software company plans to change its back-end, which it has provided from a vendor called PGP, due to the price increase, and to provide a new back-end from another vendor, called GPG2. We have applied the necessary changes using the Adapter Pattern and have provided you with the class diagram and its source code in Java and C# code.
+
+
+| <img src="6.png" alt="Pair Game" /> | 
+|:--:|
+
+## Bibliography
+* Design Patterns Elements of Reusable Object-Oriented Software -Gmma and Helm and Johnson and Vlissides -Addison Wesley
+* Java Design Patterns -Rohit Joshi -Exelixis Media
