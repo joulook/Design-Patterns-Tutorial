@@ -263,3 +263,8 @@ Consider the class diagram of this pattern in the following.
 |:--:|
 
 An adapter class relies on multiple inheritance to adapt one interface to another. To implement an Adapter Class, we act in such a way that an Adapter inherits publicly from Target and privately from Adaptee, and as a result, Adapter becomes a subtype of Target but not of Adaptee. The argument that arises is that we cannot use this Design Pattern in languages like Java, which have been prevented from multiple inheritances for valid reasons. Some sources indicate that we can implement this technique using Interface. But some sources such as the Gang of Four books admit that according to the exact definition, the Adapter must be inherited from several base classes and not from interfaces.
+
+## When to Use Adapter Pattern
+
+1. When you want to use an existing class and its interface does not match what you want to do.
+2. When you want to create a reusable class that cooperates with invisible and unrelated classes, these classes do not necessarily have a compatible interface.
